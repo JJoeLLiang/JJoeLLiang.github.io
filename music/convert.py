@@ -37,6 +37,6 @@ def flac_to_mp3(input_path, output_folder, bitrate="192k"):
         print(f"成功转换：{input_file} -> {output_path}")
 
 # 示例用法
-input_dir_or_file = "public/music/88rising; Stephanie Poetri; 王嘉尔 - I Love You 3000 II.flac"  # 可以是文件路径或目录路径
+input_dir_or_file = "public/music/Taylor Swift - Last Christmas.flac"  # 可以是文件路径或目录路径
 output_dir = "public/music/"  # 输出文件夹路径
 flac_to_mp3(input_dir_or_file, output_dir)
