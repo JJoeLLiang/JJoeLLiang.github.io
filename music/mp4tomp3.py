@@ -17,6 +17,6 @@ def extract_mp3_from_mp4(input_file, output_file):
     print(f"成功提取音频：{input_file} -> {output_file}")
 
 # 示例用法
-input_mp4 = "public/music/RPReplay_Final1734928301.mov"  # 输入的 MP4 文件路径
-output_mp3 = "public/music/小幸运.mp3"  # 输出的 MP3 文件路径
+input_mp4 = "public/music/ScreenRecording_12-28-2024 00-01-37_1.MP4"  # 输入的 MP4 文件路径
+output_mp3 = "public/music/18.mp3"  # 输出的 MP3 文件路径
 extract_mp3_from_mp4(input_mp4, output_mp3)
